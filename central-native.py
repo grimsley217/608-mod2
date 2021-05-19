@@ -14,7 +14,7 @@ def median(X):
   z=y-1 
 
 #creating function to help natively find the mode
-def mode(example2):
+def mode(M):
 
 
 print('The count is ' + str(a) + '.')
