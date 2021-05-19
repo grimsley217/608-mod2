@@ -11,10 +11,14 @@ c=sum(values)/len(values)
 def median(X):
   X=sorted(X) #sorts the list and re-saves the order
   y=len(X) #calculates the number of items in the list
-  z=y-1 
+  z=y-1 #decrease the length by 1
+  return (X[y//2]+X[z//2])/2
+#[ ] searches the index, so since indexes start at 0, [number] looks at the 'number+1' value in the list
+#if there are an odd number of elements, the indexes y//2 and z//2 are the same value, so dividing the sum by 2 returns the same middle value
+#if there are an even number of elements, the middle indexes are y//2 and z//2 respectively, so dividing the sum by 2 returns the average of the two middle values
 
 #creating function to help natively find the mode
-def mode(M):
+def mode(example2):
 
 
 print('The count is ' + str(a) + '.')
