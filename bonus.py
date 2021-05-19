@@ -13,7 +13,7 @@ b=sum(values)
 c=statistics.mean(values)
 d=statistics.median(values)
 e=statistics.multimode(values)
-#multimade is used in case there are multipled mode values
+#multimode is used in case there are multipled mode values
 
 print(values)
 print('The count is ' + str(a) + '.')
