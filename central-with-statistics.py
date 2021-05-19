@@ -10,6 +10,7 @@ c=statistics.mean(values)
 d=statistics.median(values)
 e=statistics.mode(values)
 
+print(values)
 print('The count is ' + str(a) + '.')
 print('The sum is ' + str(b) + '.')
 print('The mean is ' + str(c) + '.')
